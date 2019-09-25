@@ -1,6 +1,7 @@
 <style>
     table, td, th {
         border: 2px solid black;
+        background-color: blue;
     }
 </style>
 <?php
@@ -13,7 +14,13 @@
     "Jacksonville, Florida"=>892062, "San Francisco"=>884363, 
     "Columbus"=>879170, "Fort Worth"=>874168);
     
+     echo "<table><th>The 15 Most Populous Cities as of July 1, 2017</th>";
     
+    ksort($mostPopulous, SORT_STRING);
+    foreach($mostPopulous as $cityState => $population) {
+    echo "<tr><td>" . $cityState . "</td>" . " <td>" . $population . "</td></tr>";
+}
+    echo "</table>";
     echo "<p></p><table><th>The 15 Most Populous Cities as of July 1, 2017</th>";
     
     arsort($mostPopulous, SORT_NUMERIC);   
@@ -22,14 +29,5 @@
 }
      echo "</table>";
     
-    echo "<table><th>The 15 Most Populous Cities as of July 1, 2017</th>";
-    
-    ksort($mostPopulous, SORT_STRING);
-    foreach($mostPopulous as $cityState => $population) {
-    echo "<tr><td>" . $cityState . "</td>" . " <td>" . $population . "</td></tr>";
-}
-    echo "</table>";
-    
-    
-    echo "<p>Click here to Activity one: Favorite Quote: <a href='quote.html'></ br><button>Activity One</button></a></p>";
+    echo "<p>Click here to go back to Activity one: Favorite Quote: <a href='quote.html'></ br><button>Activity One</button></a></p>";
 ?>
