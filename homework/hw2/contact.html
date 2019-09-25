@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <form action="process_contact.php" method="POST">
+            <label>First Name:</label>
+            <input type="text" required name="first_name" id="first_name">
+            <br><label>Last Name:</label>
+            <input type="text" required name="last_name" id="last_name">
+            <br><label>Email Address:</label>
+            <input type="email" required name="email" id="email">
+            <br><label>Gender:</label>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">Prefer not to say</option>
+            </select>
+            <br><label>Age range:</label>
+            <select name="age" id="age" required>
+                <option value="20s">20s</option>
+                <option value="30s">30s</option>
+                <option value="40s">40s or older</option>
+            </select>
+            <br><label>Interests:</label><br>
+            <input type="checkbox" name="interest1" value="sports">Sports<br>
+            <input type="checkbox" name="interest2" value="reading">Reading<br>
+            <input type="checkbox" name="interest3" value="games">Games<br>
+            <input type="checkbox" name="interest4" value="fashion">Fashion<br>
+            <input type="checkbox" name="interest5" value="music">Music<br>
+            <input type="checkbox" name="interest6" value="art">Art
+            <br><label>Contribution amount</label>
+            <input type="number" name="contribution" value="0">
+            <br><label>Sign up for mailing list</label>
+            <input type="checkbox" name="mailing" value="mailing" checked="checked">Yes
+            <br><label>Comments</label>
+            <br><textarea name="comments" rows="10" columns="30"></textarea>
+            <br><button name="submit">Submit</button>
+        </form>
+    </body>
+    
+    
+</html>
