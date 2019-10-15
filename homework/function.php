@@ -2,8 +2,12 @@
 <html>
     <head>
     <style>
+    @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Spirax');
+h1{font-family: 'Spirax', cursive;
+text-align: center;
+font-size: 4em;}
     html {
-    background-image: url("https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,12 +18,15 @@
 
 
 body {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 900;
+  margin:3% 5%;
+  text-align:center;
+  font-family: Verdana;
+  background-color: pink;
+   
 }
 
 .output {
-    font-family: 'Grenze', serif;
+    font-family: 'Spirax', cursive;
     font-size: 2em;
 }
 
@@ -27,15 +34,13 @@ body {
     position: absolute;
     margin: auto;
     padding: 1em;
-    width: 25em;
+    width: 40em;
     height: 25em;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    border: 0.5em solid white;
     border-radius: 1em;
-    box-shadow: 2em 2em 2em #000;
     text-align: center;
     background-color: #F8F8F8;
     opacity: 0.8;
@@ -54,24 +59,17 @@ body {
     padding: 0.3em;
     margin: 0.5em;
     color: #FFF;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Spirax', cursive;
     font-size: 1em; 
 }
-
-a {
-    text-decoration: none;
-    color: #FFF;
-}
-
-
 
 
     </style>
         
-        <title>Homework 7 - Function Machine</title>
+        <title>function</title>
         <meta charset="utf-8">
       
-        <link href="https://fonts.googleapis.com/css?family=Grenze|Josefin+Slab&display=swap" rel="stylesheet"> 
+       
         
     </head>    
     
@@ -79,7 +77,7 @@ a {
         
         <div id="form-container">
         
-        <form action="functions.php" method="POST">
+        <form action="function.php" method="POST">
             <h1>Your Store Operator</h1>
             
             <label for="firstNum">Enter Value of first Item: 
@@ -106,7 +104,7 @@ a {
             <br>
             
 
-            <input class="btn" type="submit" value="Calculate Now!">
+            <input class="btn" type="submit" value="Process!">
             
             <br>
             
