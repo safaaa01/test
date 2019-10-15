@@ -1,4 +1,4 @@
-e<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         
@@ -7,16 +7,19 @@ e<!DOCTYPE html>
       
     <style>
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Spirax');
-h1{font-family: 'Spirax', cursive;
+h1
+{font-family: 'Spirax', cursive;
 text-align: center;
-font-size: 4em;}
-   html {
+font-size: 4em;
+        }
+  /* html {
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: purple;
     height: 100%;
+        */
     
 
 
