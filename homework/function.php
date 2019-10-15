@@ -79,7 +79,7 @@ body {
         
        <div id="form-container">
         
-        <form action="functions.php" method="POST">
+        <form action="function.php" method="POST">
             <h1>Function Machine</h1>
             
             <label for="firstNum">Enter first number: 
@@ -113,7 +113,7 @@ body {
         
         
                 
-        <a class="btn" href="functions.php">Try Again!</a>
+        <a class="btn" href="function.php">Try Again!</a>
         
         </form>
         
