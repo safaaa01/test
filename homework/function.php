@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <title>function</title>
+        <meta charset="utf-8">
+      
     <style>
-    @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Spirax');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Spirax');
 h1{font-family: 'Spirax', cursive;
 text-align: center;
 font-size: 4em;}
-    html {
+  /*  html {
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -14,10 +18,11 @@ font-size: 4em;}
     background-color: #000;
     height: 100%;
     
-}
+}*/
 
 
 body {
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
   margin:3% 5%;
   text-align:center;
   font-family: Verdana;
@@ -66,9 +71,6 @@ body {
 
     </style>
         
-        <title>function</title>
-        <meta charset="utf-8">
-      
        
         
     </head>    
