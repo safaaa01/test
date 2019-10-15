@@ -80,15 +80,15 @@ body {
        <div id="form-container">
         
         <form action="function.php" method="POST">
-            <h1>Function Machine</h1>
+            <h1>Store Calculator</h1>
             
-            <label for="firstNum">Enter first number: 
+            <label for="firstNum">first item price: 
                 <input type="number" id="firstNum" name="firstNum" required>
             </label>
             
-            <br>
+            <br><br>
             
-            <label for="secondNum">Enter second number: 
+            <label for="secondNum">Second item price: 
                 <input type="number" id="secondNum" name="secondNum" required>
             </label>
             
@@ -96,14 +96,14 @@ body {
             
             <label>Choose an operator: 
                 <select name="choice" required>
-                    <option value="Multiplication">Multiplication</option>
-                    <option value="Addition">Addition</option>
-                    <option value="Subtraction">Subtraction</option>
-                    <option value="Division">Division</option>
+                    <option value="Multiplication"> * </option>
+                    <option value="Addition"> + </option>
+                    <option value="Subtraction"> - </option>
+                    <option value="Division"> / </option>
                 </select>
             </label>
             
-            <br>
+            <br><br>
             
 
             <input class="btn" type="submit" value="Calculate Now!">
@@ -113,7 +113,7 @@ body {
         
         
                 
-        <a class="btn" href="function.php">Try Again!</a>
+        <a class="btn" href="function.php"> Another items!</a>
         
         </form>
         
