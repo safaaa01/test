@@ -17,12 +17,12 @@ body {
   margin:3% 5%;
   text-align:center;
   font-family: Verdana;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSS8ymYFMuYrDdbpBOuRFMt7Dd9TWTAbXY-oKSwGv8RU7DKS_J8A");
+  background-image: url("http://cdn.shopify.com/s/files/1/0065/4917/6438/products/a-friendly-fast-food-cashier-employee-and-inside-a-brightly-lit-grocery-store-background_1200x1200.jpg?v=1566093831");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: purple;
-    height: 100%;
+    height: 90%;
    
 }
   /* 
