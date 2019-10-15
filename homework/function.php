@@ -110,7 +110,7 @@ body {
             
             <br>
             
-        
+        <p>First Number: 2</p><p>Second Number: 2</p><p>Operator: Multiplication</p><h3 class="output">2 * 2 = 4</h3>        
         
                 
         <a class="btn" href="function.php">Another items?</a>
