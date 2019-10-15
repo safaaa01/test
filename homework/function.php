@@ -77,7 +77,7 @@ body {
         
         <div id="form-container">
         
-        <form action="function.php" method="POST">
+        <form action="functions.php" method="POST">
             <h1>Your Store Operator</h1>
             
             <label for="firstNum">Enter Value of first Item: 
