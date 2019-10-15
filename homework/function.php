@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+e<!DOCTYPE html>
 <html>
     <head>
         
@@ -15,7 +15,7 @@ font-size: 4em;}
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #000;
+    background-color: purple;
     height: 100%;
     
 
@@ -36,7 +36,7 @@ body {
 }
 
 #form-container {
-    position: absolute;
+    position: center;
     margin: auto;
     padding: 1em;
     width: 40em;
