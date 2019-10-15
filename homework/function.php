@@ -7,11 +7,20 @@
       
     <style>
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Spirax');
-h1
-{font-family: 'Spirax', cursive;
+
+h1{font-family: 'Spirax', cursive;
+  backgroung
+color: black;
 text-align: center;
-font-size: 4em;
-        }
+font-size: 4em;}
+h2{color:purple;font-family: 'Indie Flower', cursive;}
+body {
+  margin:3% 5%;
+  text-align:center;
+  font-family: Verdana;
+  background-color: pink;
+   
+}
   /* html {
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
     background-repeat: no-repeat;
@@ -19,7 +28,7 @@ font-size: 4em;
     background-size: cover;
     background-color: purple;
     height: 100%;
-        */
+        
     
 
 
@@ -69,7 +78,7 @@ body {
     color: #FFF;
     font-family: 'Spirax', cursive;
     font-size: 1em; 
-}
+}*/
 
 
     </style>
