@@ -77,16 +77,16 @@ body {
         
         <div id="form-container">
         
-        <form action="functions.php" method="POST">
-            <h1>Your Store Operator</h1>
+        <form action="function.php" method="POST">
+            <h1>Your Store Calculator</h1>
             
-            <label for="firstNum">Enter Value of first Item: 
+            <label for="firstNum">Enter price of first Item: 
                 <input type="number" id="firstNum" name="firstNum" required>
             </label>
             
             <br><br>
             
-            <label for="secondNum">Enter Value of first Item: 
+            <label for="secondNum">Enter price of second Item: 
                 <input type="number" id="secondNum" name="secondNum" required>
             </label>
             
@@ -111,7 +111,7 @@ body {
         
         
                 
-        <a class="btn" href="functions.php">Try Again!</a>
+        <a class="btn" href="function.php">Another items?</a>
         
         </form>
         
