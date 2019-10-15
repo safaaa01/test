@@ -17,7 +17,7 @@ body {
   margin:3% 5%;
   text-align:center;
   font-family: Verdana;
-  background-image:  url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
    
 }
   /* html {
