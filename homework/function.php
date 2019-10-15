@@ -77,43 +77,43 @@ body {
     
     <body>
         
-        <div id="form-container">
+       <div id="form-container">
         
-        <form action="function.php" method="POST">
-            <h1>Your Store Calculator</h1>
+        <form action="functions.php" method="POST">
+            <h1>Function Machine</h1>
             
-            <label for="firstNum">Enter price of first Item: 
+            <label for="firstNum">Enter first number: 
                 <input type="number" id="firstNum" name="firstNum" required>
             </label>
             
-            <br><br>
+            <br>
             
-            <label for="secondNum">Enter price of second Item: 
+            <label for="secondNum">Enter second number: 
                 <input type="number" id="secondNum" name="secondNum" required>
             </label>
             
-            <br><br>
+            <br>
             
-            <label>What do you want to do?: 
+            <label>Choose an operator: 
                 <select name="choice" required>
-                    <option value="Multiplication">*</option>
-                    <option value="Addition">+</option>
-                    <option value="Subtraction">-</option>
-                    <option value="Division">/</option>
+                    <option value="Multiplication">Multiplication</option>
+                    <option value="Addition">Addition</option>
+                    <option value="Subtraction">Subtraction</option>
+                    <option value="Division">Division</option>
                 </select>
             </label>
             
             <br>
             
 
-            <input class="btn" type="submit" value="Process!">
+            <input class="btn" type="submit" value="Calculate Now!">
             
             <br>
             
-        <p>First Number: 2</p><p>Second Number: 2</p><p>Operator: Multiplication</p><h3 class="output">2 * 2 = 4</h3>        
+        
         
                 
-        <a class="btn" href="function.php">Another items?</a>
+        <a class="btn" href="functions.php">Try Again!</a>
         
         </form>
         
