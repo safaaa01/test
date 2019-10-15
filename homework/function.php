@@ -17,7 +17,7 @@ body {
   margin:3% 5%;
   text-align:center;
   font-family: Verdana;
-  background-image: url("http://cdn.shopify.com/s/files/1/0065/4917/6438/products/a-friendly-fast-food-cashier-employee-and-inside-a-brightly-lit-grocery-store-background_1200x1200.jpg?v=1566093831");
+  background-image: url("https://thumbs.dreamstime.com/z/people-checkout-counter-vector-illustration-family-children-supermarket-shopping-carts-flat-isolated-cashier-114752721.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
