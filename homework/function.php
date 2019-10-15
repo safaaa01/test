@@ -10,7 +10,7 @@
 h1{font-family: 'Spirax', cursive;
 text-align: center;
 font-size: 4em;}
-  /*  html {
+   html {
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/38/groceries-cashier-at-work-vector-17862838.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -18,7 +18,7 @@ font-size: 4em;}
     background-color: #000;
     height: 100%;
     
-}*/
+
 
 
 body {
@@ -82,7 +82,7 @@ body {
         <form action="function.php" method="POST">
             <h1>Store Calculator</h1>
             
-            <label for="firstNum">first item price: 
+            <label for="firstNum">First item price: 
                 <input type="number" id="firstNum" name="firstNum" required>
             </label>
             
@@ -92,9 +92,9 @@ body {
                 <input type="number" id="secondNum" name="secondNum" required>
             </label>
             
-            <br>
+            <br><br>
             
-            <label>Choose an operator: 
+            <label> What do you want to do? : 
                 <select name="choice" required>
                     <option value="Multiplication"> * </option>
                     <option value="Addition"> + </option>
