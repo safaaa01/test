@@ -17,7 +17,7 @@ body {
   margin:3% 5%;
   text-align:center;
   font-family: Verdana;
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/813i9fmvXKL._SY355_.png);
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/813i9fmvXKL._SY355_.png");
    
 }
   /* html {
