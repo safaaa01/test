@@ -1,4 +1,26 @@
 <!DOCTYPE html>
+<?php
+ function sum($a, $b) {
+ return ($a + $b);
+ }
+ function difference($a, $b) {
+ return ($a - $b);
+ }
+ function product($a, $b) {
+  return ($a*$b);
+ }
+ function quotient($a, $b) {
+  return ($a/=$b);
+ }
+ function error() {
+  echo "You cannot divide by ZERO. Try again.";
+ }
+ $value1 = $_POST['value1'];
+ $value2 = $_POST['value2'];
+ $operator = $_POST['value3'];
+ 
+ 
+?>
 <html>
     <head>
         
@@ -25,14 +47,14 @@ body {
     height: 90%;
    
 }
-  /* 
+  
 
 .output {
     font-family: 'Spirax', cursive;
     font-size: 2em;
 }
 
-#form-container {
+/*#form-container {
     position: center;
     margin: auto;
     padding: 1em;
@@ -47,7 +69,7 @@ body {
     background-color: #F8F8F8;
     opacity: 0.8;
     
-}
+}*/
 
 .warning {
     color: red;
@@ -63,7 +85,7 @@ body {
     color: #FFF;
     font-family: 'Spirax', cursive;
     font-size: 1em; 
-}*/
+}
 
 
     </style>
@@ -80,23 +102,23 @@ body {
             <h1>Store Calculator</h1>
             
             <label for="firstNum">First item price: 
-                <input type="number" id="firstNum" name="firstNum" required>
+                <input type="number" name="value1" required>
             </label>
             
             <br><br>
             
             <label for="secondNum">Second item price: 
-                <input type="number" id="secondNum" name="secondNum" required>
+                <input type="number" name="value2" required>
             </label>
             
             <br><br>
             
-            <label> What do you want to do? : 
-                <select name="choice" required>
-                    <option value="Multiplication"> * </option>
-                    <option value="Addition"> + </option>
-                    <option value="Subtraction"> - </option>
-                    <option value="Division"> / </option>
+            <label for="input3"> What do you want to do? : 
+                <select name="value3" id="operator" required>
+                    <option value="product"> * </option>
+                    <option value="sum"> + </option>
+                    <option value="difference"> - </option>
+                    <option value="quotient"> / </option>
                 </select>
             </label>
             
@@ -115,6 +137,24 @@ body {
         </form>
         
         </div>
+        
+        <?php
+if ($operator == "sum") {
+        echo $value1 . " + " . $value2 . " = ";
+        echo sum($value1, $value2);
+} elseif ($operator == "difference") {
+        echo $value1 . " - " . $value2 . " = ";
+        echo difference($value1, $value2);
+} elseif ($operator == "product") {
+        echo $value1 . " x " . $value2 . " = ";
+        echo product($value1, $value2);
+} elseif ($operator == "quotient") {
+        echo $value1 . " / " . $value2 . " = ";
+        echo quotient($value1, $value2);
+} else {
+    echo "";
+}
+?> 
         
     </body>
     
