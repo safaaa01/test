@@ -139,7 +139,7 @@ body {
         </div>
         
         <?php
-if ($operator == "sum") {
+if ($operator == "sum") {<br>
         echo $value1 . " + " . $value2 . " = ";
         echo sum($value1, $value2);
 } elseif ($operator == "difference") {
