@@ -67,23 +67,23 @@ include('database.php');
 <!doctype html>
 <html>
 <head>
-    <title>curd exercise</title>
+    <title>crud exercise</title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Poppins|Russo+One&display=swap" rel="stylesheet">
 
   <style>
     body {
         background-color: purple;
-
         margin-top: 1em;
         margin-bottom: 1em;
+        font-family: 'Merriweather', serif;
     }
     h1,h2 {
         color: black;
+        font-family: 'Russo One', sans-serif;
+        font-size: 3em;
     }
     .borders {
         border: solid;
@@ -97,7 +97,7 @@ include('database.php');
 </head>
 <body>
 
-    <div class="row text-left">
+    <div class="row text-center">
     <div class="col-md-1"></div>
     <div class="col-md-6 text-center borders">
 
@@ -147,7 +147,7 @@ $result = mysqli_query($connection, $query);
 if($result) {
     $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
         // Output the results
-        //echo 'New user added to the database.';
+
         //print_r($rows);
 } else {
     // Output an text-danger
