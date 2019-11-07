@@ -53,18 +53,15 @@ include('database.php');
 
 
     // If everything is validated, INSERT new user into database
-    // if ($first_name && $last_name && $email && $validatePassword)
-
+    if ($first_name && $last_name && $email && $validatePassword) {
     $sql = "INSERT INTO USER_ABDALLA (first_name, last_name, email, password)
     VALUES ('$first_name','$last_name','$email','$password')";
-
     mysqli_query($connection, $sql);
     $create = "<p class='text-success'> Successfull Registration.</p>";
     } else {
         //$error = "<p class='text-danger'>Kindly refill the form.</p>";
     }
-
-
+    }
 ?>
 
 <!doctype html>
@@ -108,7 +105,7 @@ include('database.php');
     <form action="crud.php" method="POST">
         <label for="first_name">First Name</label>
         <input type="text" id="first_name" name="first_name"><br>
-        <?php if(!empty($first)) { echo($first); } ?>
+        <?php echo($first) ?>
 
         <label for="last_name">Last Name</label>
         <input type="text" id="last_name" name="last_name"><br>
@@ -164,6 +161,7 @@ if($result) {
                 <th>Last Name</th>
                 <th>Email</th>
                 <th>Password</th>
+                <th>Edit</th>
             </tr>
         </thead>
         <tbody>
@@ -174,6 +172,7 @@ if($result) {
                 <td>'.$row['last_name'].'</td>
                 <td>'.$row['email'].'</td>
                 <td>'.$row['password'].'</td>
+                <td><a href="include_finished.php?id='.$row['user_id'].'">Edit</a></td>
             </tr>';
             }
             ?>
